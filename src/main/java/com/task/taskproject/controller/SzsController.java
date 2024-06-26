@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Tag(name = "스크래핑 및 결정세액 조회 API")
 @UserAuthorize // 커스텀 어노테이션 일반 사용자 API 검증
 @RestController
+@RequestMapping(API.BASE)
 public class SzsController {
     public static class API {
         public static final String BASE = "/szs";

@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
  */
 @NoArgsConstructor
 @Entity
+@Getter
 @Table(name = "memberincminfo")
 public class MemberIncmInfo {
     @Id
